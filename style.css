@@ -1339,27 +1339,163 @@ thead {
 
 
 @media (max-width: 1623px) {
+    .desk-h1 {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .desk-h2 {
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .desk-h3 {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .desk-h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .desk-h5 {
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 0;
+    }
+    .desk-t1 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+    .desk-t2 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 18px;
+        margin-bottom: 0;
+    }
+
+    .nav-btn {
+        padding: 12px 16px;
+        font-size: 15px;
+    }
+    .nav-btn img{
+        width: 20px;
+    }
+
+    /*****/
+    .banner-wrapper {
+        height: 600px;
+        padding-top: 160px;
+        padding-right: 40px;
+        background-position: right !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+
+
+
+    /*****/
+    .stress-box {
+        padding: 50px 40px 50px 40px;
+        height: auto;
+    }
+    .stress-item-white {
+        padding: 25px 30px;
+    }
+    .stress-item-brain {
+        width: 80px;
+        bottom: 20px;
+    }
+    .stress-item {
+        padding: 40px 100px 40px 20px;
+    }
+    .stress-item p {
+        max-width: 270px;
+    }
+    .stress-img {
+        width: 40%;
+    }
+    .stress-bg {
+        width: 40%;
+    }
+
+
+    /*****/
+    .vsr-box {
+        padding: 60px;
+        padding-right: 60px;
+        height: auto;
+    }
     .vsr-img {
-        width: 65%;
+        width: 53%;
+    }
+    .vsr-item {
+        padding: 60px 40px;
+    }
+    .vsr-img {
+        position: absolute;
+        left: 90px;
+        bottom: -1px;
+    }
+
+
+
+    /*****/
+    .tracker-item-img {
+        width: 90px;
+        height: 90px;
+        border-radius: 25px;
+    }
+    .tracker-item-img img {
+        max-width: 55%;
     }
     .tracker-items {
         padding-right: 20px;
         gap: 40px 40px;
     }
-    .tracker-item-img {
-        width: 100px;
-        height: 100px;
+    .tracker-img-bar {
+        padding: 20px;
     }
+    .tracker-img-bar p {
+        margin-bottom: 20px;
+    }
+    .tracker-item p {
+        font-size: 15px;
+        line-height: 16px;
+    }
+
+
+    /*****/
+    .cases-slide-img {
+        width: 120px;
+        height: 120px;
+    }
+    .cases-slide-img-num p {
+        font-size: 40px;
+    }
+    .cases-slide-img-num {
+        width: 60px;
+        height: 60px;
+    }
+
+    /*****/
     .story-slide {
         height: 320px;
     }
     .story-slide-content img {
         top: 105px;
-        width: 90px;
-        height: 90px
+        width: 80px;
+        height: 80px
     }
+
+    /*****/
     .tech-box {
         padding: 80px 60px;
+        height: auto;
     }
     .tech-item-blue {
         max-width: 340px;
@@ -1373,12 +1509,56 @@ thead {
         padding: 0 32px;
         padding-top: 45px;
     }
-    .plus-info button {
-        padding: 20px 22px;
+    .tech-box button {
+        padding: 12px 19px;
+        font-size: 16px;
     }
+    .tech-box button img{
+        width: 24px;
+    }
+
+
+    /*****/
+    .auditoria-title p{
+        max-width: 930px;
+        margin: 0 auto;
+    }
+    .auditoria-item {
+        gap: 16px;
+        margin-bottom: 20px;
+    }
+
+    /*****/
+    .visualization-slide button {
+        padding: 14px 22px;
+    }
+    .visualization-slide button img{
+        width: 22px;
+    }
+    .visualization-box {
+        padding: 80px;
+        height: auto;
+    }
+    .visualization-swiper-light {
+        width: 320px;
+    }
+    
+
+    /*****/
     .plus-box {
         padding: 50px 75px;
     }
+    .plus-box {
+        gap: 35px;
+    }
+    .plus-title h2 {
+        line-height: 29px;
+    }
+    .plus-info button {
+        padding: 15px 18px;
+    }
+
+    /*****/
     .tool-item:first-child .tool-img {
         right: -20px;
         bottom: 47px;
@@ -1390,6 +1570,12 @@ thead {
     .tool-item:last-child .tool-img {
         width: 45%;
     }
+
+    .tool-item {
+        height: auto;
+    }
+
+    /*****/
     .table td {
         font-size: 16px;
     }
@@ -1406,25 +1592,37 @@ thead {
     .table th:first-child {
         padding-left: 80px;
     }
+
+
+    /*****/
     .contact-box {
         padding: 64px 80px;
     }
     .contact-offices {
         gap: 40px;
     }
-    .banner-wrapper {
-        background-position: right !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
-    }
+
 }
 
 @media (max-width: 1399px) {
-    .banner-wrapper {
-        height: 600px;
-        padding-top: 160px;
-        background-position: right !important;
-        background-size: cover !important;
-        background-repeat: no-repeat !important;
+    
+    .stress-box {
+        height: 560px;
+        border-radius: 40px;
+        padding: 80px 50px 50px 50px;
+        position: relative;
+    }
+    
+    .stress-img {
+        position: absolute;
+        bottom: 0;
+        right: -80px;
+        width: 58%;
+    }
+    
+    .vsr-bg-2 {
+        left: 536px;
+        top: 132px;
+        position: absolute;
     }
 }
