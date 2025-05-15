@@ -1557,22 +1557,43 @@ thead {
     .plus-info button {
         padding: 15px 18px;
     }
+    .plus-2-btn {
+        padding: 16.5px 80px !important;
+    }
 
     /*****/
     .tool-item:first-child .tool-img {
-        right: -20px;
-        bottom: 47px;
+        right: 60px;
+        bottom: 40px;
+        width: 30%;
     }
     .tool-item:nth-child(2) .tool-img {
-        right: 2px;
-        bottom: 143px;
+        right: 77px;
+        bottom: 64px;
+        width: 35%;
     }
     .tool-item:last-child .tool-img {
-        width: 45%;
+        width: 37%;
     }
-
     .tool-item {
         height: auto;
+        padding: 50px;
+    }
+    .tool-btn-1 {
+        padding: 14px 30px;
+        font-size: 16px;
+    }
+    .tool-btn-2 {
+        padding: 12.5px 27px;
+    }
+    .tool-btn-2 img {
+        width: 20px;
+    }
+    .tool-text-content img {
+        width: 60px;
+    }
+    .tool-text-content {
+        gap: 20px;
     }
 
     /*****/
@@ -1591,6 +1612,11 @@ thead {
     }
     .table th:first-child {
         padding-left: 80px;
+    }
+
+    /*****/
+    .couse-box {
+        height: 700px;
     }
 
 
