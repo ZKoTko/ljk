@@ -10,7 +10,26 @@ var swiper = new Swiper('.cases-swiper', {
       el: '.swiper-scrollbar',
       draggable: true,
     },
+    mousewheel: {
+      forceToAxis: true,
+      sensitivity: 1,
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+        1624: {
+            slidesPerView: 4,
+        }
+    }
 });
+
 
 var swiper = new Swiper('.story-swiper', {
     slidesPerView: 4,

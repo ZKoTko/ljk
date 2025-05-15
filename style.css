@@ -93,11 +93,6 @@ body {
     margin-bottom: 0;
 }
 
-@media (min-width: 1600px) {
-    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1624px;
-    }
-}
 
 /* Nav */
 .nav-wrapper {
@@ -442,19 +437,6 @@ body {
 }
 .cases-slide-img-num {
     position: absolute;
-    right: -18px;
-    top: 50%;
-    transform: translateY(-50%);
-    background: linear-gradient(90deg, #C4589F 0%, #5E74CE 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-weight: 700;
-    font-size: 50px;
-    z-index: 1;
-}
-.cases-slide-img-wrapper::after {
-    content: "";
-    position: absolute;
     width: 70px;
     height: 70px;
     border-radius: 50%;
@@ -462,7 +444,22 @@ body {
     top: 50%;
     right: -21px;
     transform: translateY(-50%);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10px;
 }
+.cases-slide-img-num p {
+    background: linear-gradient(90deg, #C4589F 0%, #5E74CE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 700;
+    font-size: 50px;
+    z-index: 1;
+    margin-bottom: 0;
+}
+
+
 .cases-slide-header {
     display: flex;
     align-items: center;
@@ -511,6 +508,7 @@ body {
 }
 .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
     left: 32px !important;
+    height: 8px !important;
 }
 .swiper-scrollbar-drag {
     background: #D9569B;
@@ -631,8 +629,13 @@ body {
     width: 100%;
     flex-direction: column;
     gap: 16px;
-    margin-bottom: 20px;
     text-align: center;
+}
+.tech-small-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 .tech-item-blue img {
     width: 82px;
@@ -906,6 +909,7 @@ body {
     font-size: 18px;
     color: #404040;
     margin-bottom: 0;
+    line-height: 29px;
 }
 .plus-info {
     display: flex;
@@ -998,6 +1002,8 @@ body {
     display: flex;
     align-items: center;
     gap: 20px;
+    position: relative;
+    z-index: 2;
 }
 .tool-price {
     color: #5E74CE;
@@ -1099,8 +1105,15 @@ body {
     font-size: 18px;
     position: relative;
 }
+.table td img {
+    min-width: 29px;
+    width: 29px;
+    height: 29px;
+}
 .table th {
     position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 .table tr:last-child td::after {
     content: '';
@@ -1304,4 +1317,86 @@ thead {
     gap: 80px;
     margin-top: 30px;
     color: #000000;
+}
+
+
+/* Media */
+@media (min-width: 1624px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1624px;
+    }
+}
+
+@media (max-width: 1624px) {
+    .vsr-img {
+        width: 65%;
+    }
+    .tracker-items {
+        padding-right: 20px;
+        gap: 40px 40px;
+    }
+    .tracker-item-img {
+        width: 100px;
+        height: 100px;
+    }
+    .story-slide {
+        height: 320px;
+    }
+    .story-slide-content img {
+        top: 95px;
+    }
+    .tech-box {
+        padding: 80px 60px;
+    }
+    .tech-item-blue {
+        max-width: 340px;
+    }
+    .tech-item-purple {
+        max-width: 340px;
+    }
+    .tech-item-white {
+        max-width: 430px;
+        height: 100%;
+        padding: 0 32px;
+        padding-top: 45px;
+    }
+    .plus-info button {
+        padding: 20px 22px;
+    }
+    .plus-box {
+        padding: 50px 75px;
+    }
+    .tool-item:first-child .tool-img {
+        right: -20px;
+        bottom: 47px;
+    }
+    .tool-item:nth-child(2) .tool-img {
+        right: 2px;
+        bottom: 143px;
+    }
+    .tool-item:last-child .tool-img {
+        width: 45%;
+    }
+    .table td {
+        font-size: 16px;
+    }
+    td:nth-child(n+2), th:nth-child(n+2) {
+        padding-left: 40px;
+    }
+    td .desk-h3 {
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .table tr td:first-child {
+        padding-left: 80px;
+    }
+    .table th:first-child {
+        padding-left: 80px;
+    }
+    .contact-box {
+        padding: 64px 80px;
+    }
+    .contact-offices {
+        gap: 40px;
+    }
 }
