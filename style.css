@@ -945,6 +945,7 @@ body {
 .plus-2 .plus-box{
     margin-left: 0;
     margin-right: 6px;
+    padding: 80px;
 }
 .plus-2-btn {
     padding: 24.5px 110px !important;
@@ -1323,17 +1324,23 @@ thead {
 /* Media */
 @media (min-width: 1200px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1200px;
+        max-width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1320px;
+        max-width: 100%;
+        padding-left: 24px;
+        padding-right: 24px;
     }
 }
 @media (min-width: 1624px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1624px;
+        padding-right: 12px;
+        padding-left: 12px;
     }
 }
 
@@ -1396,8 +1403,6 @@ thead {
         background-repeat: no-repeat !important;
     }
 
-
-
     /*****/
     .stress-box {
         padding: 50px 40px 50px 40px;
@@ -1417,6 +1422,7 @@ thead {
         max-width: 270px;
     }
     .stress-img {
+        max-height: 450px;
         width: 40%;
     }
     .stress-bg {
@@ -1441,7 +1447,6 @@ thead {
         left: 90px;
         bottom: -1px;
     }
-
 
 
     /*****/
@@ -1484,7 +1489,7 @@ thead {
 
     /*****/
     .story-slide {
-        height: 320px;
+        height: 340px;
     }
     .story-slide-content img {
         top: 105px;
@@ -1515,6 +1520,9 @@ thead {
     }
     .tech-box button img{
         width: 24px;
+    }
+    .tech-cols {
+        justify-content: center;
     }
 
 
@@ -1564,8 +1572,9 @@ thead {
     /*****/
     .tool-item:first-child .tool-img {
         right: 60px;
-        bottom: 40px;
+        bottom: 20px;
         width: 30%;
+        max-width: 400px;
     }
     .tool-item:nth-child(2) .tool-img {
         right: 77px;
@@ -1617,6 +1626,12 @@ thead {
     /*****/
     .couse-box {
         height: 700px;
+    }
+    .course-bar button {
+        padding: 16px 36px;
+    }
+     .course-bar button img{
+        width: 22px;
     }
 
 
