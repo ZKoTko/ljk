@@ -1321,13 +1321,24 @@ thead {
 
 
 /* Media */
+@media (min-width: 1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1200px;
+    }
+}
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1320px;
+    }
+}
 @media (min-width: 1624px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
         max-width: 1624px;
     }
 }
 
-@media (max-width: 1624px) {
+
+@media (max-width: 1623px) {
     .vsr-img {
         width: 65%;
     }
@@ -1343,7 +1354,9 @@ thead {
         height: 320px;
     }
     .story-slide-content img {
-        top: 95px;
+        top: 105px;
+        width: 90px;
+        height: 90px
     }
     .tech-box {
         padding: 80px 60px;
@@ -1398,5 +1411,20 @@ thead {
     }
     .contact-offices {
         gap: 40px;
+    }
+    .banner-wrapper {
+        background-position: right !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+    }
+}
+
+@media (max-width: 1399px) {
+    .banner-wrapper {
+        height: 600px;
+        padding-top: 160px;
+        background-position: right !important;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
     }
 }
