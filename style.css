@@ -127,6 +127,11 @@ body {
     border-radius: 35px;
     padding: 16px 26px;
     border: 0 !important;
+    transition: .3s;
+}
+.nav-btn:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+    background:  rgba(217, 86, 155, 0.9) !important;
 }
 .nav-info a {
     font-family: 'Gilroy', sans-serif;
@@ -196,6 +201,11 @@ body {
     font-weight: 700;
     font-size: 16px;
     border: 0 !important;
+    transition: .3s;
+}
+.banner-text button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+    background:  rgba(217, 86, 155, 0.9) !important;
 }
 .banner {
     margin-bottom: 50px;
@@ -337,6 +347,11 @@ body {
     font-weight: 700;
     font-size: 16px;
     border: 0 !important;
+    transition: .3s;
+}
+.vsr-item button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+    background:  rgba(217, 86, 155, 0.9) !important;
 }
 
 /* Tracker */
@@ -403,6 +418,9 @@ body {
     gap: 55px 100px;
     justify-content: space-between;
     padding-right: 100px;
+}
+.tracker-img-wrapper {
+    height: 100%;
 }
 
 /* Cases */
@@ -502,6 +520,11 @@ body {
     margin-top: 12px;
     position: relative;
     z-index: 3;
+    transition: .3s;
+}
+.cases-slide-text button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+    background:  rgba(217, 86, 155, 0.9) !important;
 }
 .cases-swiper {
     padding-left: 32px;
@@ -633,6 +656,10 @@ body {
     flex-direction: column;
     gap: 16px;
     text-align: center;
+    transition: .3s;
+}
+.tech-item-blue:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
 .tech-small-items {
     display: flex;
@@ -660,6 +687,10 @@ body {
     color: #fff;
     max-width: 423px;
     width: 100%;
+    transition: .3s;
+}
+.tech-item-purple:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
 .tech-item-purple {
     margin-bottom: 0;
@@ -673,6 +704,10 @@ body {
     overflow: hidden;
     padding: 0 56px;
     padding-top: 45px;
+    transition: .3s;
+}
+.tech-item-white:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
 .tech-item-white h3{
     max-width: 405px;
@@ -693,6 +728,10 @@ body {
     height: 100%;
     padding: 45px 26.5px;
     text-align: center;
+    transition: .3s;
+}
+.tech-item-pink:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
 .tech-item-pink h3 {
     max-width: 366px;
@@ -726,6 +765,10 @@ body {
     font-size: 20px;
     border: 0 !important;
     margin: 0 auto;
+    transition: .3s;
+}
+.tech-box button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
 .tech-box button span{
     background: linear-gradient(90deg, #9074D4 0%, #A662C2 100%);
@@ -857,6 +900,12 @@ body {
     font-size: 16px;
     border: 0 !important;
     margin-bottom: 24px;
+    transition: .3s;
+    justify-content: center;
+}
+.visualization-slide button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+    background:  rgba(217, 86, 155, 0.9) !important;
 }
 .visualization-swiper {
     padding-bottom: 50px;
@@ -925,18 +974,24 @@ body {
     font-size: 18px;
     color: #404040;
     margin-bottom: 0;
+    max-width: 200px;
 }
 .plus-info button {
     background: #D9569B !important;
     border-radius: 50px;
     color: #fff !important;
-    padding: 20px 41px;
+    padding: 20px 32px;
     gap: 12px;
     display: flex;
     align-items: center;
     font-weight: 700;
     font-size: 16px;
     border: 0 !important;
+    transition: .3s;
+}
+.plus-info button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+    background:  rgba(217, 86, 155, 0.9) !important;
 }
 .plus-image {
     width: 100%;
@@ -1024,6 +1079,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     border: 0 !important;
+    transition: .3s;
 }
 .tool-btn-2 {
     background: #D9569B !important;
@@ -1036,6 +1092,13 @@ body {
     font-weight: 700;
     font-size: 16px;
     border: 0 !important;
+    transition: .3s;
+}
+.tool-btn-1:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+}
+.tool-btn-2:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
 .tool-text-title {
     max-width: 652px;
@@ -1238,6 +1301,11 @@ td:nth-child(n+2), th:nth-child(n+2) {
     font-size: 16px;
     border: 0 !important;
     width: fit-content;
+    transition: .3s;
+}
+.course-bar button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+    background:  rgba(217, 86, 155, 0.9) !important;
 }
 .course-bar h2 {
     color: #fff;
@@ -1316,6 +1384,9 @@ td:nth-child(n+2), th:nth-child(n+2) {
     font-weight: 700;
     font-size: 16px;
     border: 0 !important;
+}
+.contact-box-button button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
 .contact-offices {
     display: flex;
