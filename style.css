@@ -2262,33 +2262,33 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 0 !important;
     }
     .desk-h1 {
-        font-size: 26px;
-        line-height: 27px;
+        font-size: 28px;
+        line-height: 29px;
     }
     .desk-h2 {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 22px;
+        line-height: 22px;
     }
     .desk-h3 {
         font-weight: 700;
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .desk-h4 {
         font-weight: 700;
-        font-size: 18px;
-        line-height: 18px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .desk-h5 {
-        font-size: 15px;
-        line-height: 15px;
+        font-size: 17px;
+        line-height: 17px;
     }
     .desk-t1 {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 18px;
     }
     .desk-t2 {
-        font-size: 13px;
+        font-size: 14px;
         line-height: 18px;
     }
 
@@ -2300,14 +2300,14 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 19px 15px;
     }
     .nav-logo img {
-        width: 136px;
+        width: 150px;
     }
     .nav-info a {
-        font-size: 15px;
+        font-size: 16px;
     }
     .nav-info p {
-        font-size: 10px;
-        line-height: 10px;
+        font-size: 12px;
+        line-height: 12px;
     }
     .nav-info {
         display: flex;
@@ -2323,13 +2323,19 @@ td:nth-child(n+2), th:nth-child(n+2) {
     .banner-gradient {
         background: linear-gradient(179.91deg, rgba(0, 0, 0, 0) 2.38%, rgba(18, 0, 100, 0.6) 97.62%);
     }
+    .banner-text {
+        width: 100%;
+    }
     .banner-text p {
         font-size: 14px;
         line-height: 18px;
+        max-width: 100%;
     }
     .banner-text button {
-        font-size: 14px;
+        font-size: 15px;
         padding: 20px 30px;
+        width: 100%;
+        justify-content: center;
     }
     .banner-text button img {
         width: 25px;
@@ -2346,7 +2352,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         top: 0;
     }
     .stress-title p {
-        max-width: 150px;
+        max-width: 220px;
     }
     .stress-title {
         margin-bottom: 15px;
@@ -2368,7 +2374,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .stress-item p {
         max-width: 100%;
-        font-size: 14px;
+        font-size: 15px;
     }
 
 
@@ -2380,37 +2386,39 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .vsr-box {
         padding: 15px;
-        padding-top: 160px;
+        padding-top: 210px;
     }
     .vsr-img {
-        width: 85%;
-        max-width: 350px;
+        width: 100%;
+        max-width: 450px;
     }
     .vsr-bg-1 {
         width: 100%;
     }
     .vsr-item {
         padding: 15px;
+        width: 100%;
     }
     .vsr-item h3 {
-        max-width: 170px;
+        max-width: 190px;
         margin-bottom: 15px;
     }
     .vsr-item p {
-        font-size: 14px;
+        font-size: 15px;
         margin-bottom: 15px;
     }
     .vsr-item button {
         width: 100%;
         font-size: 14px;
         padding: 18px 30px;
+        justify-content: center;
     }
 
 
 
     .tracker-title {
         padding-left: 0;
-        max-width: 200px;
+        max-width: 250px;
         margin: 0 auto;
         margin-bottom: 15px;
     }
@@ -2419,9 +2427,9 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 0 15px;
     }
     .tracker-item-img {
-        width: 46px;
-        min-width: 46px;
-        height: 46px;
+        width: 56px;
+        min-width: 56px;
+        height: 56px;
         border-radius: 18px;
     }
     .tracker-item-img {
@@ -2432,12 +2440,13 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .tracker-item p {
         max-width: unset;
+        font-size: 15px;
     }
     .tracker-img-wrapper {
        padding: 0 15px;
     }
     .tracker-img {
-        height: 285px;
+        height: 385px;
     }
     .tracker-img-bar p {
         margin-bottom: 15px;
@@ -2455,13 +2464,13 @@ td:nth-child(n+2), th:nth-child(n+2) {
         font-weight: 400;
     }
     .cases-title {
-        max-width: 290px;
+        max-width: 390px;
     }
     .cases-light {
         display: none;
     }
     .cases-slide {
-        max-width: 245px;
+        max-width: 305px;
     }
     .cases-swiper {
         padding-left: 15px;
@@ -2477,12 +2486,12 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 20px 25px 25px 25px;
     }
     .cases-slide-img {
-        width: 90px;
-        height: 90px;
+        width: 100px;
+        height: 100px;
     } 
     .cases-slide-header p {
-        font-size: 12px;
-        line-height: 12px;
+        font-size: 15px;
+        line-height: 15px;
     }
     .cases-slide-img-num p {
         font-size: 32px;
@@ -2497,18 +2506,18 @@ td:nth-child(n+2), th:nth-child(n+2) {
         gap: 32px;
     }
     .cases-slide-text h6 {
-        font-size: 10px;
+        font-size: 14px;
     }
     .cases-slide-text {
-        font-size: 10px;
-        line-height: 13px;
+        font-size: 14px;
+        line-height: 14px;
     }
     .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
         left: 20px !important;
         max-width: 80% !important;
     }
     .cases-slide-text button {
-        font-size: 10px;
+        font-size: 13px;
     }
     .cases-slide-text button {
         padding: 11px 18px;
@@ -2519,13 +2528,13 @@ td:nth-child(n+2), th:nth-child(n+2) {
 
 
     .story-title {
-        max-width: 295px;
+        max-width: 320px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
     .story-slide {
-        max-width: 185px;
-        height: 200px;
+        max-width: 240px;
+        height: 255px;
         border-radius: 17px;
     }
     .story-slide::after {
@@ -2536,15 +2545,15 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding-bottom: 40px;
     }
     .story-slide-content img {
-        width: 55px;
-        height: 55px;
-        top: 75px;
+        width: 65px;
+        height: 65px;
+        top: 85px;
     }
     .story-slide-content p {
-        font-size: 10px;
+        font-size: 14px;
     }
     .story-slide-content {
-        padding-bottom: 8px;
+        padding-bottom: 12px;
     }
 
 
@@ -2576,8 +2585,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         max-height: 100%;
     }
     .tech-item-white p {
-        font-size: 9px;
-        max-width: 260px;
+        font-size: 12px;
+        max-width: 284px;
     }
     .tech-item-white {
         padding: 25px 15px;
@@ -2623,7 +2632,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
 
 
     .auditoria-title {
-        max-width: 306px;
+        max-width: 325px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -2637,8 +2646,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         gap: 16px;
     }
     .auditoria-slide-title p {
-        font-size: 10px;
-        line-height: 12px;
+        font-size: 12px;
+        line-height: 14px;
     }
     .auditoria-slide {
         padding: 27px 20px;
@@ -2647,8 +2656,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         width: 22px;
     }
     .auditoria-item p{
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 14px;
+        line-height: 14px;
     }
     .auditoria-item {
         margin-bottom: 10px;
@@ -2668,7 +2677,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 30px 15px;
     }
     .visualization-title {
-        max-width: 290px;
+        max-width: 360px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -2690,6 +2699,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         font-size: 10px;
         padding: 9px 22px;
         margin-bottom: 15px;
+        justify-content: center;
     }
     .visualization-slide button img {
         width: 18px;
@@ -2880,7 +2890,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 0 15px;
     }
     .footer-logo {
-        width: 155px;
+        width: 185px;
         margin: 0 auto;
     }
     .contact-links {
@@ -2917,11 +2927,12 @@ td:nth-child(n+2), th:nth-child(n+2) {
         gap: 10px;
     }
     .contact-box-button {
-        margin-top: 10px;
+        margin-top: 20px;
+
     }
     .contact-box-button button {
-        font-size: 10px;
-        padding: 12px 20px;
+        font-size: 12px;
+        padding: 14px 20px;
     }
     .contact-box-button img {
         width: 16px;
