@@ -2333,26 +2333,26 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 0 !important;
     }
     .desk-h1 {
-        font-size: 28px;
-        line-height: 29px;
+        font-size: 30px;
+        line-height: 32px;
     }
     .desk-h2 {
-        font-size: 22px;
-        line-height: 22px;
+        font-size: 24px;
+        line-height: 24px;
     }
     .desk-h3 {
         font-weight: 700;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 22px;
+        line-height: 22px;
     }
     .desk-h4 {
         font-weight: 700;
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 22px;
+        line-height: 22px;
     }
     .desk-h5 {
-        font-size: 17px;
-        line-height: 17px;
+        font-size: 19px;
+        line-height: 19px;
     }
     .desk-t1 {
         font-size: 15px;
@@ -2398,7 +2398,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         width: 100%;
     }
     .banner-text p {
-        font-size: 14px;
+        font-size: 15px;
         line-height: 18px;
         max-width: 100%;
     }
