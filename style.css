@@ -256,7 +256,7 @@ body {
     color: #DC60B1;
 }
 .stress-item-white p {
-    max-width: 220px;
+    max-width: 225px;
     color: #404040;
 }
 .stress-items {
@@ -3034,7 +3034,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
 
 
     .table th:first-child {
-        padding-left: 20px;
+        padding-left: 15px;
         padding-top: 30px;
         padding-bottom: 30px;
     }
@@ -3067,7 +3067,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         line-height: 14px;
     }
     .table tr td:first-child {
-        padding-left: 30px;
+        padding-left: 15px;
     }
     td .desk-h3 {
         font-size: 16px;
