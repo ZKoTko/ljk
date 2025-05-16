@@ -2943,4 +2943,63 @@ td:nth-child(n+2), th:nth-child(n+2) {
     .contact-links a {
         font-size: 13px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .table th:first-child {
+        padding-left: 20px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .table th {
+        position: relative;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 30px;
+    }
+    .table th img {
+        width: 55px;
+        margin-bottom: 10px;
+    }
+    .th-wrapper h3 {
+        font-size: 16px;
+        line-height: 16px;
+        margin-bottom: 2px;
+    } 
+    .th-wrapper p {
+        font-size: 14px;
+        line-height: 14px;
+    } 
+    .table td img {
+        width: 24px;
+        min-width: 24px;
+        height: 24px;
+    }
+    .table td {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .table tr td:first-child {
+        padding-left: 30px;
+    }
+    td .desk-h3 {
+        font-size: 16px;
+    }
+    thead {
+        height: auto;
+    }
+    td:nth-child(n+2), th:nth-child(n+2) {
+        width: 400px;
+    }
 }
