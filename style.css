@@ -2388,9 +2388,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
 
 
 
-    .banner-wrapper {
-        height: 466px;
-    }
+
     .banner-gradient {
         background: linear-gradient(179.91deg, rgba(0, 0, 0, 0) 2.38%, rgba(18, 0, 100, 0.6) 97.62%);
     }
