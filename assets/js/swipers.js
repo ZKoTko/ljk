@@ -16,10 +16,11 @@ var swiper = new Swiper('.cases-swiper', {
     },
     breakpoints: {
         0: {
-            slidesPerView: 1,
+            slidesPerView: "auto",
+            spaceBetween: 15,
         },
         768: {
-            slidesPerView: 2,
+            slidesPerView: "auto",
         },
         1200: {
             slidesPerView: 3,
@@ -45,7 +46,7 @@ var swiper = new Swiper('.story-swiper', {
     },
     breakpoints: {
         0: { // от 0 и выше
-            slidesPerView: 2,
+            slidesPerView: "auto",
         },
         768: { // от 768 и выше
             slidesPerView: 3,
@@ -66,18 +67,27 @@ var swiper = new Swiper('.auditoria-swiper', {
     touchStartPreventDefault: false,
     passiveListeners: false,
     pagination: {
-      el: '.swiper-pagination',
-      clickable: true,
+        el: '.swiper-pagination',
+        clickable: true,
     },
     breakpoints: {
-        0: { // от 0 до 1199px
+        0: { // от 0 до 991px
+            slidesPerView: 1.5, // или 1.2 для большего зазора
+            centeredSlides: true,
+            initialSlide: 0,
+            spaceBetween: 15,
+        },
+        992: { // от 992px до 1199px
             slidesPerView: 2,
+            centeredSlides: false,
         },
         1200: { // от 1200px и выше
             slidesPerView: 3,
+            centeredSlides: false,
         }
     }
 });
+
 
 
 var swiper = new Swiper('.visualization-swiper', {
@@ -92,4 +102,13 @@ var swiper = new Swiper('.visualization-swiper', {
       el: '.swiper-pagination',
       clickable: true,
     },
+    breakpoints: {
+        0: { // от 0 и выше
+            slidesPerView: 1,
+        },
+        992: { // от 992 и выше
+            slidesPerView: 'auto',
+        }
+    }
 });
+

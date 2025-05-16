@@ -9,7 +9,16 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-
+    <style>
+        @media (max-width: 992px) {
+            .banner-wrapper {
+                background: url(assets/img/banner-mob.png) !important;
+                background-position: center !important;
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+            }
+        }
+    </style>
     <header>
         <div class="nav">
             <div class="container">
@@ -55,6 +64,8 @@
                 <div class="stress-box">
                     <img class="stress-bg" src="assets/img/stress-bg.svg" alt="pulse">
                     <img class="stress-img" src="assets/img/stress-img.svg" alt="stress-man">
+                    <img class="stress-bg-mob" src="assets/img/stress-bg-mob.svg" alt="pulse">
+                    <img class="stress-img-mob" src="assets/img/stress-img-mob.svg" alt="stress-man">
                     <div class="stress-title">
                         <h2 class="desk-h1">Стресс</h2>
                         <p class="desk-h5">Один из 4 ключевых столпов здоровья — питание, движение, сон, стресс.</p>
@@ -97,7 +108,7 @@
         <section class="tracker">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-lg-6 col-12">
                         <div class="tracker-text">
                             <div class="tracker-title">
                                 <h2 class="desk-h1">Стресс-трекер</h2>
@@ -155,8 +166,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        <div class="tracker-img" style="background: url(assets/img/tracker-img.png);">
+                    <div class="col-lg-6 col-12 tracker-img-col">
+                        <div class="tracker-img-wrapper">
+                            <div class="tracker-img" style="background: url(assets/img/tracker-img.png);">
                             <div class="tracker-img-bar">
                                 <h3>Получить доступ </h3>
                                 <p class="desk-t2">к обучающему вебинару по стресс-менеджменту</p>
@@ -164,6 +176,7 @@
                                     <img src="assets/img/tracker-arrow.svg" alt="arrow">
                                 </div>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
@@ -403,38 +416,15 @@
                                     <div class="auditoria-items">
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
+                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
                                         </div>
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
+                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
                                         </div>
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide auditoria-slide">
-                                <div class="auditoria-slide-content">
-                                    <img src="assets/img/auditoria-icon.svg" alt="icon" style="width: 55px;">
-                                    <div class="auditoria-slide-title">
-                                        <h3 class="desk-h5">Врач превентивной медицины</h3>
-                                        <p>для объективной диагностики стрессовой нагрузки и ее влияния на состояние здоровья пациента.</p>
-                                    </div>
-                                    <div class="auditoria-items">
-                                        <div class="auditoria-item">
-                                            <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
-                                        </div>
-                                        <div class="auditoria-item">
-                                            <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
-                                        </div>
-                                        <div class="auditoria-item">
-                                            <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
+                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -449,15 +439,15 @@
                                     <div class="auditoria-items">
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
+                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
                                         </div>
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
+                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
                                         </div>
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
+                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -472,15 +462,38 @@
                                     <div class="auditoria-items">
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
+                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
                                         </div>
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
+                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
                                         </div>
                                         <div class="auditoria-item">
                                             <img src="assets/img/auditoria-arrow.svg" alt="arrow">
-                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
+                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide auditoria-slide">
+                                <div class="auditoria-slide-content">
+                                    <img src="assets/img/auditoria-icon.svg" alt="icon" style="width: 55px;">
+                                    <div class="auditoria-slide-title">
+                                        <h3 class="desk-h5">Врач превентивной медицины</h3>
+                                        <p>для объективной диагностики стрессовой нагрузки и ее влияния на состояние здоровья пациента.</p>
+                                    </div>
+                                    <div class="auditoria-items">
+                                        <div class="auditoria-item">
+                                            <img src="assets/img/auditoria-arrow.svg" alt="arrow">
+                                            <p>ВСР-анализ позволяет измерять адаптационные резервы организма, предсказывать возможные заболевания и корректировать протоколы профилактики.</p>
+                                        </div>
+                                        <div class="auditoria-item">
+                                            <img src="assets/img/auditoria-arrow.svg" alt="arrow">
+                                            <p>Позволяет определить предрасположенность к выгоранию, хронической усталости, метаболическим нарушениям.</p>
+                                        </div>
+                                        <div class="auditoria-item">
+                                            <img src="assets/img/auditoria-arrow.svg" alt="arrow">
+                                            <p>Помогает персонализировать терапию, выбирая оптимальную нагрузку для конкретного пациента.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -558,10 +571,10 @@
         <section class="plus">
             <div class="container">
                 <div class="row">
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-12">
                         <div class="plus-image" style="background: url(assets/img/plus-image.svg);"></div>
                     </div>
-                    <div class="col-xl-6">
+                    <div class="col-xl-6 col-12">
                         <div class="plus-box">
                             <div class="plus-title">
                                 <h2 class="desk-h2">ВСР-анализ – не просто инструмент диагностики стресса, а метод объективной оценки регуляторных систем организма.</h2>
@@ -667,153 +680,154 @@
         <!--Таблица-->
         <section class="table-section">
             <div class="container">
-                <table class="table custom-zebra" id="table">
-                    <thead class="table-light">
-                        <tr>
-                            <th>
-                                <h2 class="desk-h1">Сравнение версий</h2>
-                                <p class="desk-h5">Несколько уровней <br> диагностических устройств</p>
-                            </th>
-                            <th>
-                                <div class="th-wrapper">
-                                    <img src="assets/img/contact-logo-1.svg" alt="logo">
-                                    <h3 class="desk-h3">Гетпульс</h3>
-                                    <p>портативный прибор <br> для домашнего <br> использования</p>
-                                </div>
-                            </th>
-                            <th>
-                                <div class="th-wrapper">
-                                    <img src="assets/img/contact-logo-2.svg" alt="logo">
-                                    <h3 class="desk-h3">Лотос</h3>
-                                    <p>профессиональный прибор  <br> для функциональной <br> диагностики</p>
-                                </div>
-                            </th>
-                            <th>
-                                <div class="th-wrapper">
-                                    <img src="assets/img/contact-logo-3.svg" alt="logo">
-                                    <h3 class="desk-h3">Омега</h3>
-                                    <p>медицинский прибор <br> с расширенной <br> аналитикой</p>
-                                </div>
-                            </th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Анализ ВСР</td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                            <td class="check">
-                               <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Оценка стрессоустойчивости</td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Мониторинг динамики стресса</td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                            <td class="check">
-                                <div class="check-wrap">
+                <div class="table-wrapper" id="scrollWrapper">
+                    <table class="table custom-zebra" id="table">
+                        <thead class="table-light">
+                            <tr>
+                                <th>
+                                    <h2 class="desk-h1">Сравнение версий</h2>
+                                    <p class="desk-h5">Несколько уровней <br> диагностических устройств</p>
+                                </th>
+                                <th>
+                                    <div class="th-wrapper">
+                                        <img src="assets/img/contact-logo-1.svg" alt="logo">
+                                        <h3 class="desk-h3">Гетпульс</h3>
+                                        <p>портативный прибор <br> для домашнего <br> использования</p>
+                                    </div>
+                                </th>
+                                <th>
+                                    <div class="th-wrapper">
+                                        <img src="assets/img/contact-logo-2.svg" alt="logo">
+                                        <h3 class="desk-h3">Лотос</h3>
+                                        <p>профессиональный прибор  <br> для функциональной <br> диагностики</p>
+                                    </div>
+                                </th>
+                                <th>
+                                    <div class="th-wrapper">
+                                        <img src="assets/img/contact-logo-3.svg" alt="logo">
+                                        <h3 class="desk-h3">Омега</h3>
+                                        <p>медицинский прибор <br> с расширенной <br> аналитикой</p>
+                                    </div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Анализ ВСР</td>
+                                <td class="check">
                                     <img src="assets/img/table-check.png" alt="check">
-                                    <p>Углубленно</p>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Глубина анализа</td>
-                            <td>Базовая</td>
-                            <td>Продвинутая</td>
-                            <td>С медицинской точностью</td>
-                        </tr>
-                        <tr>
-                            <td>Диагностика блуждающего нерва</td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="check">
-                               <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Возможность медицинского применения</td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="check">
+                                </td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                                <td class="check">
                                 <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Дыхательная тренировка</td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="check">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Оценка стрессоустойчивости</td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Мониторинг динамики стресса</td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                                <td class="check">
+                                    <div class="check-wrap">
+                                        <img src="assets/img/table-check.png" alt="check">
+                                        <p>Углубленно</p>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Глубина анализа</td>
+                                <td>Базовая</td>
+                                <td>Продвинутая</td>
+                                <td>С медицинской точностью</td>
+                            </tr>
+                            <tr>
+                                <td>Диагностика блуждающего нерва</td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="check">
                                 <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Многоканальный анализ</td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="cross">
-                                <img src="assets/img/table-cross.png" alt="cross">
-                            </td>
-                            <td class="check">
-                                <img src="assets/img/table-check.png" alt="check">
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Стоимость</td>
-                            <td><div class="desk-h3">15 000 руб.</div></td>
-                            <td><div class="desk-h3">89 000 руб.</div></td>
-                            <td><div class="desk-h3">179 000 руб.</div></td>
-                        </tr>
-                        <tr>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                    </tbody>
-                </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Возможность медицинского применения</td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Дыхательная тренировка</td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Многоканальный анализ</td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="cross">
+                                    <img src="assets/img/table-cross.png" alt="cross">
+                                </td>
+                                <td class="check">
+                                    <img src="assets/img/table-check.png" alt="check">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Стоимость</td>
+                                <td><div class="desk-h3">15 000 руб.</div></td>
+                                <td><div class="desk-h3">89 000 руб.</div></td>
+                                <td><div class="desk-h3">179 000 руб.</div></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </section>
-        
-        
+
         <!--Условия-->
         <section class="plus plus-2">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-xl-6 col-12">
                         <div class="plus-box">
                             <div class="plus-title">
                                 <h2 class="desk-h2">Что вы получаете при покупке устройства?</h2>
@@ -844,7 +858,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
+                    <div class="col-xl-6 col-12">
                         <div class="plus-image" style="background: url(assets/img/plus-2.svg);"></div>
                     </div>
                 </div>
@@ -855,6 +869,7 @@
         <section class="course">
             <div class="container">
                <div class="couse-box" style="background: url(assets/img/course-bg.svg);">
+                <div class="course-bar-img" style="background: url(assets/img/course-bg.svg);"></div>
                     <div class="course-bar">
                         <h2 class="desk-h2">Учебный курс «Стресс-менеджмент в превентивной медицине»</h2>
                         <div class="course-items">
