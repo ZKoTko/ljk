@@ -2536,6 +2536,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .cases-title {
         max-width: 390px;
+        padding: 0 15px;
     }
     .cases-light {
         display: none;
