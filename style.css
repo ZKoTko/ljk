@@ -2333,33 +2333,33 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 0 !important;
     }
     .desk-h1 {
-        font-size: 30px;
+        font-size: 32px;
         line-height: 32px;
     }
     .desk-h2 {
-        font-size: 24px;
-        line-height: 24px;
+        font-size: 25px;
+        line-height: 25px;
     }
     .desk-h3 {
         font-weight: 700;
-        font-size: 22px;
-        line-height: 22px;
+        font-size: 23px;
+        line-height: 23px;
     }
     .desk-h4 {
         font-weight: 700;
-        font-size: 22px;
-        line-height: 22px;
+        font-size: 23px;
+        line-height: 23px;
     }
     .desk-h5 {
-        font-size: 19px;
-        line-height: 19px;
+        font-size: 20px;
+        line-height: 20px;
     }
     .desk-t1 {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 18px;
     }
     .desk-t2 {
-        font-size: 14px;
+        font-size: 16px;
         line-height: 18px;
     }
 
@@ -2398,13 +2398,13 @@ td:nth-child(n+2), th:nth-child(n+2) {
         width: 100%;
     }
     .banner-text p {
-        font-size: 15px;
+        font-size: 16px;
         line-height: 18px;
         max-width: 100%;
     }
     .banner-text button {
-        font-size: 15px;
-        padding: 20px 30px;
+        font-size: 16px;
+        padding: 24px 30px;
         width: 100%;
         justify-content: center;
     }
@@ -2471,17 +2471,18 @@ td:nth-child(n+2), th:nth-child(n+2) {
         width: 100%;
     }
     .vsr-item h3 {
-        max-width: 190px;
+        max-width: 215px;
         margin-bottom: 15px;
     }
     .vsr-item p {
-        font-size: 15px;
+        font-size: 16px;
         margin-bottom: 15px;
+        max-width: 240px;
     }
     .vsr-item button {
         width: 100%;
-        font-size: 14px;
-        padding: 18px 30px;
+        font-size: 16px;
+        padding: 20px 30px;
         justify-content: center;
     }
 
@@ -2511,7 +2512,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .tracker-item p {
         max-width: unset;
-        font-size: 15px;
+        font-size: 16px;
     }
     .tracker-img-wrapper {
        padding: 0 15px;
@@ -2527,6 +2528,9 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .tracker-img-bar h3 {
         font-size: 20px;
+    }
+    .tracker-img-bar {
+        padding: 20px;
     }
 
 
@@ -2635,7 +2639,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 30px 15px 15px 15px;
     }
     .tech-title {
-        max-width: 275px;
+        max-width: 310px;
         margin: 0 auto;
         margin-bottom: 15px;
     }
@@ -2657,7 +2661,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         max-height: 100%;
     }
     .tech-item-white p {
-        font-size: 12px;
+        font-size: 14px;
         max-width: 284px;
     }
     .tech-item-white {
@@ -2738,8 +2742,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding-bottom: 30px;
     }
     .auditoria-title p {
-        font-size: 15px;
-        line-height: 15px;
+        font-size: 16px;
+        line-height: 16px;
     }
 
 
@@ -2772,8 +2776,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         margin-bottom: 15px;
     }
     .visualization-slide button {
-        font-size: 10px;
-        padding: 9px 22px;
+        font-size: 14px;
+        padding: 14px 22px;
         margin-bottom: 15px;
         justify-content: center;
     }
@@ -2805,8 +2809,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         text-align: center;
     }
     .plus-item p {
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 15px;
+        line-height: 15px;
     }
     .plus-items {
         align-items: center;
@@ -2824,10 +2828,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         justify-content: center;
     }
     .plus-item img {
-        width: 24px;
-        margin-top: -2px;
-        min-width: 24px;
-        height: 24px;
+        margin-top: -5px;
     }
     .plus-info p {
         line-height: 18px;
@@ -2881,9 +2882,6 @@ td:nth-child(n+2), th:nth-child(n+2) {
         text-align: center;
         gap: 10px;
     }
-    .tool-text-content img {
-        width: 46px;
-    }
     .tool-controls {
        flex-wrap: wrap;
        justify-content: center;
@@ -2894,17 +2892,22 @@ td:nth-child(n+2), th:nth-child(n+2) {
         width: 100%;
     }
     .tool-btn-1 {
-        font-size: 12px;
+        font-size: 14px;
+        padding: 16px 30px;
     }
     .tool-btn-2 {
-        font-size: 12px;
+        font-size: 14px;
         gap: 8px;
+        padding: 16px 27px;
     }
      .tool-btn-2 img{
         width: 18px;
     } 
     .tool-text-content p {
         width: 100%;
+    }
+    .tool-text-content {
+        padding: 0 40px;
     }
     .tool-item:first-child .tool-img {
         width: 100%;
@@ -2948,7 +2951,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         min-width: 24px;
     }
     .course-item p {
-        font-size: 13px;
+        font-size: 15px;
     }
     .course-bar h2 {
         text-align: center;
@@ -3054,23 +3057,18 @@ td:nth-child(n+2), th:nth-child(n+2) {
         margin-bottom: 2px;
     } 
     .th-wrapper p {
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 15px;
+        line-height: 15px;
     } 
-    .table td img {
-        width: 24px;
-        min-width: 24px;
-        height: 24px;
-    }
     .table td {
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 15px;
+        line-height: 15px;
     }
     .table tr td:first-child {
         padding-left: 15px;
     }
     td .desk-h3 {
-        font-size: 16px;
+        font-size: 18px;
     }
     thead {
         height: auto;
