@@ -2737,6 +2737,10 @@ td:nth-child(n+2), th:nth-child(n+2) {
     .auditoria-swiper {
         padding-bottom: 30px;
     }
+    .auditoria-title p {
+        font-size: 15px;
+        line-height: 15px;
+    }
 
 
 
