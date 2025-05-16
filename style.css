@@ -3002,4 +3002,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
     td:nth-child(n+2), th:nth-child(n+2) {
         width: 400px;
     }
+    td:nth-child(n+2), th:nth-child(n+2) {
+        padding-left: 30px;
+    }
 }
