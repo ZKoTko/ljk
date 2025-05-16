@@ -2987,9 +2987,13 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 14px 22px;
         margin-bottom: 15px;
         justify-content: center;
+        text-wrap: nowrap;
     }
     .visualization-slide button img {
         width: 18px;
+    }
+    .btn-question-modal {
+        text-wrap: auto;
     }
 
 
