@@ -72,7 +72,7 @@ var swiper = new Swiper('.auditoria-swiper', {
     },
     breakpoints: {
         0: { // от 0 до 991px
-            slidesPerView: 1.5, // или 1.2 для большего зазора
+            slidesPerView: 1.2, // или 1.2 для большего зазора
             centeredSlides: true,
             initialSlide: 0,
             spaceBetween: 15,

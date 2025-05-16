@@ -2398,8 +2398,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         width: 100%;
     }
     .banner-text p {
-        font-size: 16px;
-        line-height: 18px;
+        font-size: 18px;
+        line-height: 20px;
         max-width: 100%;
     }
     .banner-text button {
@@ -2522,12 +2522,14 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .tracker-img-bar p {
         margin-bottom: 15px;
+        font-size: 16px;
+        max-width: 200px;
     }
     .tracker-img-arrow img {
         width: 41px;
     }
     .tracker-img-bar h3 {
-        font-size: 20px;
+        font-size: 24px;
     }
     .tracker-img-bar {
         padding: 20px;
@@ -2639,29 +2641,33 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 30px 15px 15px 15px;
     }
     .tech-title {
-        max-width: 310px;
+        max-width: 335px;
         margin: 0 auto;
         margin-bottom: 15px;
     }
     .tech-item-blue {
-        height: 165px;
+        height: 185px;
     }
     .tech-item-blue img {
-        width: 56px;
+        width: 76px;
     }
     .tech-item-blue p{
-        font-size: 13px;
+        font-size: 15px;
         line-height: 18px;
-        max-width: 242px;
+        max-width: 282px;
     }
     .tech-item-purple {
-        height: 161px;
+        height: 185px;
+    }
+    .tech-item-purple p {
+        font-size: 17px;
+        line-height: 21px;
     }
     .tech-item-purple img{
         max-height: 100%;
     }
     .tech-item-white p {
-        font-size: 14px;
+        font-size: 16px;
         max-width: 284px;
     }
     .tech-item-white {
@@ -2671,17 +2677,17 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding-bottom: 265px;
     }
     .tech-item-white img {
-        max-height: 250px;
+        max-height: 285px;
         position: absolute;
         right: 0;
         bottom: 0;
     }
     .tech-pink-img-1 {
-        max-width: 86px;
         margin-bottom: 15px;
+        max-width: 90px;
     }
     .tech-pink-img-2 {
-        max-width: 47px;
+        max-width: 55px;
         margin-bottom: 15px;
     }
     .tech-item-pink h3 {
@@ -2695,12 +2701,14 @@ td:nth-child(n+2), th:nth-child(n+2) {
     }
     .tech-box button {
         width: 100%;
+        font-size: 18px;
+        line-height: 24px;
     }
     .tech-box button img {
         display: none;
     }
     .tech-box button span {
-        max-width: 256px;
+        max-width: 280px;
         margin: 0 auto;
     }
 
@@ -2722,18 +2730,18 @@ td:nth-child(n+2), th:nth-child(n+2) {
         gap: 16px;
     }
     .auditoria-slide-title p {
-        font-size: 12px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 16px;
     }
     .auditoria-slide {
         padding: 27px 20px;
     }
     .auditoria-item img {
-        width: 22px;
+        width: 32px;
     }
     .auditoria-item p{
-        font-size: 14px;
-        line-height: 14px;
+        font-size: 16px;
+        line-height: 16px;
     }
     .auditoria-item {
         margin-bottom: 10px;
@@ -2744,6 +2752,11 @@ td:nth-child(n+2), th:nth-child(n+2) {
     .auditoria-title p {
         font-size: 16px;
         line-height: 16px;
+        max-width: 285px;
+        margin-top: 15px;
+    }
+    .auditoria-slide-title {
+        padding: 0 6px;
     }
 
 
@@ -2757,7 +2770,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
         padding: 30px 15px;
     }
     .visualization-title {
-        max-width: 360px;
+        max-width: 290px;
         margin: 0 auto;
         margin-bottom: 20px;
     }
@@ -2804,9 +2817,11 @@ td:nth-child(n+2), th:nth-child(n+2) {
         gap: 30px;
     }
     .plus-title h2 {
-        font-size: 20px;
-        line-height: 20px;
+        font-size: 24px;
+        line-height: 24px;
         text-align: center;
+        max-width: 300px;
+        margin: 0 auto;
     }
     .plus-item p {
         font-size: 15px;
@@ -2833,6 +2848,7 @@ td:nth-child(n+2), th:nth-child(n+2) {
     .plus-info p {
         line-height: 18px;
         font-size: 20px;
+        max-width: 220px;
     }
     .plus-2 .plus-box {
         padding: 20px;
@@ -2994,8 +3010,8 @@ td:nth-child(n+2), th:nth-child(n+2) {
         margin-top: 10px;
     }
     .contact-office p {
-        font-size: 13px;
-        line-height: 13px;
+        font-size: 15px;
+        line-height: 15px;
         margin-bottom: 5px;
     }
     .contact-office h4 {
@@ -3010,11 +3026,11 @@ td:nth-child(n+2), th:nth-child(n+2) {
 
     }
     .contact-box-button button {
-        font-size: 12px;
-        padding: 14px 20px;
+        font-size: 14px;
+        padding: 16px 20px;
     }
     .contact-box-button img {
-        width: 16px;
+        width: 24px;
     }
     .contact-box-button button {
         gap: 8px;
