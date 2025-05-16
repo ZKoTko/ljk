@@ -131,7 +131,26 @@ body {
 }
 .nav-btn:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
-    background:  rgba(217, 86, 155, 0.9) !important;
+    background: #6076CE !important;
+}
+.nav-btn img {
+    transition: 0.2s ease;
+}
+.nav-btn:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+}
+.nav-btn:hover img {
+  animation: shake 0.5s ease;
+}
+
+/* Анимация "тряски" */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
 }
 .nav-info a {
     font-family: 'Gilroy', sans-serif;
@@ -205,7 +224,7 @@ body {
 }
 .banner-text button:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
-    background:  rgba(217, 86, 155, 0.9) !important;
+    background: #6076CE !important;
 }
 .banner {
     margin-bottom: 50px;
@@ -351,7 +370,7 @@ body {
 }
 .vsr-item button:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
-    background:  rgba(217, 86, 155, 0.9) !important;
+    background: #6076CE !important;
 }
 
 /* Tracker */
@@ -393,6 +412,12 @@ body {
 .tracker-img-arrow {
     cursor: pointer;
 }
+.tracker-img-arrow img {
+    transition: .3s;
+}
+.tracker-img-arrow:hover img {
+    transform: scale(1.1);
+}
 .tracker-item-img {
     width: 110px;
     height: 110px;
@@ -401,6 +426,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: .3s;
+}
+.tracker-item-img:hover {
+    transform: rotate(10deg);
 }
 .tracker-item {
     display: flex;
@@ -524,7 +553,7 @@ body {
 }
 .cases-slide-text button:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
-    background:  rgba(217, 86, 155, 0.9) !important;
+    background: #6076CE !important;
 }
 .cases-swiper {
     padding-left: 32px;
@@ -767,8 +796,24 @@ body {
     margin: 0 auto;
     transition: .3s;
 }
+.tech-box button img {
+    transition: 0.2s ease;
+}
 .tech-box button:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+}
+.tech-box button:hover img {
+  animation: shake 0.5s ease;
+}
+
+/* Анимация "тряски" */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
 }
 .tech-box button span{
     background: linear-gradient(90deg, #9074D4 0%, #A662C2 100%);
@@ -822,6 +867,12 @@ body {
     gap: 27px;
     align-items: flex-start;
     margin-bottom: 30px;
+}
+.auditoria-item img {
+    transition: .3s;
+}
+.auditoria-item img:hover {
+    transform: scale(1.1);
 }
 .auditoria-item p {
     margin-bottom: 0;
@@ -905,7 +956,26 @@ body {
 }
 .visualization-slide button:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
-    background:  rgba(217, 86, 155, 0.9) !important;
+    background: #6076CE !important;
+}
+.visualization-slide button img {
+    transition: 0.2s ease;
+}
+.visualization-slide button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+}
+.visualization-slide button:hover img {
+  animation: shake 0.5s ease;
+}
+
+/* Анимация "тряски" */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
 }
 .visualization-swiper {
     padding-bottom: 50px;
@@ -957,6 +1027,10 @@ body {
 .plus-item img {
     width: 29px;
     height: 29px;
+    transition: .3s;
+}
+.plus-item img:hover {
+    transform: scale(1.1);
 }
 .plus-item p {
     font-size: 18px;
@@ -991,7 +1065,23 @@ body {
 }
 .plus-info button:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
-    background:  rgba(217, 86, 155, 0.9) !important;
+    background: #6076CE !important;
+}
+.plus-info button img {
+    transition: 0.2s ease;
+}
+.plus-info button:hover img {
+  animation: shake 0.5s ease;
+}
+
+/* Анимация "тряски" */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
 }
 .plus-image {
     width: 100%;
@@ -1032,6 +1122,10 @@ body {
     display: flex;
     overflow: hidden;
     position: relative;
+    transition: .3s;
+}
+.tool-item:hover {
+    box-shadow: 0 4px 25px 0 rgba(0, 0, 0, .15);
 }
 .tool-text {
     display: flex;
@@ -1100,6 +1194,23 @@ body {
 .tool-btn-2:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
 }
+.tool-btn-2 img {
+    transition: 0.2s ease;
+}
+.tool-btn-2:hover img {
+  animation: shake 0.5s ease;
+}
+
+/* Анимация "тряски" */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
+
 .tool-text-title {
     max-width: 652px;
 }
@@ -1307,6 +1418,22 @@ td:nth-child(n+2), th:nth-child(n+2) {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
     background:  rgba(217, 86, 155, 0.9) !important;
 }
+.course-bar button img {
+    transition: 0.2s ease;
+}
+.course-bar button:hover img {
+  animation: shake 0.5s ease;
+}
+
+/* Анимация "тряски" */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
+}
 .course-bar h2 {
     color: #fff;
     margin-bottom: 0;
@@ -1325,6 +1452,12 @@ td:nth-child(n+2), th:nth-child(n+2) {
     display: flex;
     align-items: flex-start;
     gap: 12px;
+}
+.course-item img {
+    transition: .3s;
+}
+.course-item img:hover {
+    transform: scale(1.1);
 }
 .course-item p {
     color: #fff;
@@ -1373,6 +1506,12 @@ td:nth-child(n+2), th:nth-child(n+2) {
 .contact-box-socials a {
     text-decoration: none;
 }
+.contact-box-socials a img {
+    transition: .3s;
+}
+.contact-box-socials a:hover img {
+    transform: scale(1.2);
+}
 .contact-box-button button {
     background: #3BD056 !important;
     border-radius: 50px;
@@ -1387,6 +1526,25 @@ td:nth-child(n+2), th:nth-child(n+2) {
 }
 .contact-box-button button:hover {
     box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+}
+.contact-box-button button img {
+    transition: 0.2s ease;
+}
+.contact-box-button button:hover {
+    box-shadow: 0 4px 25px 0 rgba(0,0,0,.35);
+}
+.contact-box-button button:hover img {
+  animation: shake 0.5s ease;
+}
+
+/* Анимация "тряски" */
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  20% { transform: rotate(-10deg); }
+  40% { transform: rotate(10deg); }
+  60% { transform: rotate(-10deg); }
+  80% { transform: rotate(10deg); }
+  100% { transform: rotate(0deg); }
 }
 .contact-offices {
     display: flex;
